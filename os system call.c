@@ -5,7 +5,7 @@ int main()
 {
 pid_t p;
 printf("before fork\n");
-p=fork();
+p= fork();
 if(p==0)
 {
 printf("I am child having id %d\n",getpid());
